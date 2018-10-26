@@ -202,6 +202,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\HelpPage\HelpPage.css" />
+    <Content Include="Banco de Dados\RESTFulAPP.mdf" />
+    <Content Include="Banco de Dados\RESTFulAPP_log.ldf">
+      <DependentUpon>RESTFulAPP.mdf</DependentUpon>
+    </Content>
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
